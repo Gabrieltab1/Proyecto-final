@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./estilos.css">
+	<title>Juego</title>
+</head>
+
+
+
+<body class="body">
+	<nav  class="nav-header">
+		<a href="./index.html"> 
+			<svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
+            </svg>
+
+		</a>
+		<ul class="nav-ul">
+			<li class="button-link"><a class="url-li" href="./historia.html">HISTORIA</a></li>
+			<li class="button-link"><a class="url-li" href="./juguemos.html">JUGUEMOS</a></li>
+		</ul>
+	</nav>
+
+	 <header class="header">
+    	<h1 class="tittle">JUGUEMOS UN POCO</h1>
+    	
+    </header>
+
+    <main>
+
+    	<h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+
+        <section class="juego">
+            <div class="cajas">
+                <div class="box-espacio">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="box-espacio">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+                <div class="box-espacio">
+                    <p>Arrastre y suelte la imágene aquí</p>
+                </div>
+            </div>
+            <div class="box-imagenes">
+                <img class="pieza" src="./rompe2.png">
+                <img class="pieza" src="./Rompe1.png">
+                <img class="pieza" src="./Rompe3.png">
+            </div>
+            <button onclick="reinicio()" class="reiniciar-button">Reiniciar</button>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
